@@ -1,81 +1,66 @@
 {
-  "WPFInstall": [
-    "WPFInstall7zip",
-    "WPFInstalldotnet8",
-    "WPFInstalldotnet6",
-    "WPFInstallfoxpdfreader",
-    "WPFInstallvlc",
-    "WPFInstallnotepadplus",
-    "WPFInstalldotnet3",
-    "WPFInstallchrome",
-    "WPFInstallfirefox",
-    "WPFInstalldotnet7",
-    "WPFInstalldotnet5",
-    "WPFInstalldotnet9"
-  ],
   "WPFTweaks": [
-    "WPFTweaksRemoveHome",
-    "WPFTweaksDisableLMS1",
-    "WPFTweaksHome",
     "WPFTweaksDVR",
-    "WPFTweaksRemoveCopilot",
-    "WPFTweaksLoc",
+    "WPFTweaksDisableExplorerAutoDiscovery",
     "WPFTweaksLaptopHibernation",
     "WPFTweaksConsumerFeatures",
-    "WPFTweaksDisableExplorerAutoDiscovery",
-    "WPFTweaksAH",
-    "WPFTweaksDisableBGapps",
-    "WPFTweaksEndTaskOnTaskbar",
-    "WPFTweaksPowershell7Tele",
-    "WPFTweaksServices",
     "WPFTweaksWifi",
-    "WPFTweaksDisableWpbtExecution",
+    "WPFTweaksServices",
+    "WPFTweaksDisableLMS1",
+    "WPFTweaksRecallOff",
     "WPFTweaksRemoveGallery",
-    "WPFTweaksRightClickMenu",
-    "WPFTweaksTele",
+    "WPFTweaksAH",
+    "WPFTweaksDisableWpbtExecution",
+    "WPFTweaksPowershell7Tele",
     "WPFTweaksStorage",
+    "WPFTweaksLoc",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksRemoveCopilot",
+    "WPFTweaksHome",
     "WPFTweaksEdgeDebloat",
-    "WPFTweaksRecallOff"
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksDisableBGapps",
+    "WPFTweaksTele",
+    "WPFTweaksRemoveHome"
   ],
-  "WPFFeature": [
-    "WPFFeatureDisableSearchSuggestions"
+  "WPFInstall": [
+    "WPFInstalldotnet9",
+    "WPFInstallfirefox",
+    "WPFInstall7zip",
+    "WPFInstalldotnet6",
+    "WPFInstallnotepadplus",
+    "WPFInstalladobe",
+    "WPFInstalldotnet7",
+    "WPFInstalldotnet5",
+    "WPFInstalldotnet8",
+    "WPFInstalldotnet3",
+    "WPFInstallvlc",
+    "WPFInstallchrome"
   ],
   "Install": [
     {
-      "winget": "7zip.7zip",
-      "choco": "7zip"
+      "winget": "Microsoft.DotNet.DesktopRuntime.9",
+      "choco": "dotnet-9.0-runtime"
     },
     {
-      "winget": "Microsoft.DotNet.DesktopRuntime.8",
-      "choco": "dotnet-8.0-runtime"
+      "winget": "Mozilla.Firefox",
+      "choco": "firefox"
+    },
+    {
+      "winget": "7zip.7zip",
+      "choco": "7zip"
     },
     {
       "winget": "Microsoft.DotNet.DesktopRuntime.6",
       "choco": "dotnet-6.0-runtime"
     },
     {
-      "winget": "Foxit.FoxitReader",
-      "choco": "foxitreader"
-    },
-    {
-      "winget": "VideoLAN.VLC",
-      "choco": "vlc"
-    },
-    {
       "winget": "Notepad++.Notepad++",
       "choco": "notepadplusplus"
     },
     {
-      "winget": "Microsoft.DotNet.DesktopRuntime.3_1",
-      "choco": "dotnetcore3-desktop-runtime"
-    },
-    {
-      "winget": "Google.Chrome",
-      "choco": "googlechrome"
-    },
-    {
-      "winget": "Mozilla.Firefox",
-      "choco": "firefox"
+      "winget": "Adobe.Acrobat.Reader.64-bit",
+      "choco": "adobereader"
     },
     {
       "winget": "Microsoft.DotNet.DesktopRuntime.7",
@@ -86,8 +71,23 @@
       "choco": "dotnet-5.0-runtime"
     },
     {
-      "winget": "Microsoft.DotNet.DesktopRuntime.9",
-      "choco": "dotnet-9.0-runtime"
+      "winget": "Microsoft.DotNet.DesktopRuntime.8",
+      "choco": "dotnet-8.0-runtime"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "choco": "dotnetcore3-desktop-runtime"
+    },
+    {
+      "winget": "VideoLAN.VLC",
+      "choco": "vlc"
+    },
+    {
+      "winget": "Google.Chrome",
+      "choco": "googlechrome"
     }
+  ],
+  "WPFFeature": [
+    "WPFFeatureDisableSearchSuggestions"
   ]
 }
