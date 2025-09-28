@@ -1,0 +1,93 @@
+{
+  "WPFInstall": [
+    "WPFInstall7zip",
+    "WPFInstalldotnet8",
+    "WPFInstalldotnet6",
+    "WPFInstallfoxpdfreader",
+    "WPFInstallvlc",
+    "WPFInstallnotepadplus",
+    "WPFInstalldotnet3",
+    "WPFInstallchrome",
+    "WPFInstallfirefox",
+    "WPFInstalldotnet7",
+    "WPFInstalldotnet5",
+    "WPFInstalldotnet9"
+  ],
+  "WPFTweaks": [
+    "WPFTweaksRemoveHome",
+    "WPFTweaksDisableLMS1",
+    "WPFTweaksHome",
+    "WPFTweaksDVR",
+    "WPFTweaksRemoveCopilot",
+    "WPFTweaksLoc",
+    "WPFTweaksLaptopHibernation",
+    "WPFTweaksConsumerFeatures",
+    "WPFTweaksDisableExplorerAutoDiscovery",
+    "WPFTweaksAH",
+    "WPFTweaksDisableBGapps",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksPowershell7Tele",
+    "WPFTweaksServices",
+    "WPFTweaksWifi",
+    "WPFTweaksDisableWpbtExecution",
+    "WPFTweaksRemoveGallery",
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksTele",
+    "WPFTweaksStorage",
+    "WPFTweaksEdgeDebloat",
+    "WPFTweaksRecallOff"
+  ],
+  "WPFFeature": [
+    "WPFFeatureDisableSearchSuggestions"
+  ],
+  "Install": [
+    {
+      "winget": "7zip.7zip",
+      "choco": "7zip"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.8",
+      "choco": "dotnet-8.0-runtime"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.6",
+      "choco": "dotnet-6.0-runtime"
+    },
+    {
+      "winget": "Foxit.FoxitReader",
+      "choco": "foxitreader"
+    },
+    {
+      "winget": "VideoLAN.VLC",
+      "choco": "vlc"
+    },
+    {
+      "winget": "Notepad++.Notepad++",
+      "choco": "notepadplusplus"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "choco": "dotnetcore3-desktop-runtime"
+    },
+    {
+      "winget": "Google.Chrome",
+      "choco": "googlechrome"
+    },
+    {
+      "winget": "Mozilla.Firefox",
+      "choco": "firefox"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.7",
+      "choco": "dotnet-7.0-runtime"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.5",
+      "choco": "dotnet-5.0-runtime"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.9",
+      "choco": "dotnet-9.0-runtime"
+    }
+  ]
+}
