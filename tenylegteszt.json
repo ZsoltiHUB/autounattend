@@ -1,0 +1,15 @@
+{
+  "Install": [
+    {
+      "winget": "M2Team.NanaZip",
+      "choco": "nanazip"
+    }
+  ],
+  "WPFInstall": [
+    "WPFInstallnanazip"
+  ],
+  "WPFFeature": [],
+  "WPFTweaks": [
+    "WPFTweaksDisableCrossDeviceResume"
+  ]
+}
